@@ -1,0 +1,39 @@
+/* SECTIONS */
+.section{ clear:both; padding:0; margin:0; }
+
+/* COLUMN SETUP */
+.col{ display:block; float:left; margin:1% 0 1% 1.6%; background: rgba(0,0,0,0); }
+.col:first-child,.colfix:first-child{margin-left: 0;}
+
+/* GROUPING */
+.group:before,
+.group:after{ content:""; display:table; }
+.group:after{clear:both;}
+.group{zoom:1;}
+
+/*  GRID * 12  */
+.span_12 {width: 100%;}
+.span_11 {width: 91.53%;}
+.span_10 {width: 83.06%;}
+.span_9 {width: 74.6%;}
+.span_8 {width: 66.13%;}
+.span_7 {width: 57.66%;}
+.span_6 {width: 49.2%;}
+.span_5 {width: 40.73%;}
+.span_4 {width: 32.26%;}
+.span_3 {width: 23.8%;}
+.span_2 {width: 15.33%;}
+.span_1 {width: 6.866%;}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) { 
+    .col{margin:1% 0% 1% 0%};
+}
+@media only screen and (min-width: 0px) and (max-width: 1024px) {     
+	.span_12,.span_11,.span_10,.span_9,.span_8,.span_7,.span_6,.span_5,.span_4,.span_3,.span_2,.span_1	
+	{
+        width:100%;
+    }
+    
+}
+

@@ -1,0 +1,35 @@
+.list2 {
+	border-collapse: collapse;
+	width: 99%;
+	border:1px solid #dbdbdb;
+    margin-bottom: 20px;
+	font-size: 12pt;
+	padding:0 .5%;
+	margin:0 auto;
+}
+.list2 thead th {
+	background-color: #11192b; 
+	padding: 10px 5px; text-transform: capitalize;
+    vertical-align: middle;
+    color:#fff;
+    font-family: opensans; 
+}
+.list2 tbody td {
+	padding:10px;
+	font-family: opensans;
+}
+.list2 tbody tr:nth-child(odd) {
+	background: #FFFFFF;
+}
+.list2 tbody tr:nth-child(even) {
+	background: #f1f1f1;
+}
+.list2 .left {
+	text-align: left;	
+}
+.list2 .right {
+	text-align: right;	
+}
+.list2 .center {
+	text-align: center;	
+}

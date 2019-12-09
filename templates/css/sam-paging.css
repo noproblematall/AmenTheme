@@ -1,0 +1,7 @@
+/* pagination */
+.pagination {padding: 10px 0;font-size: 14px;  font-family: tahoma; }
+.pagination a {padding: 4px 5px; color: #222; margin: 0; background:none; border:1px solid transparent; text-decoration: none;}
+.pagination .current {padding: 4px 5px; color: #fff; margin: 0; background:#5b8b3f; border:1px solid transparent; text-decoration: none;}
+.pagination a:hover {background:#5b8b3f; color: #fff; border:1px solid transparent;}
+.pagination strong {font-weight:bold;padding: 4px 5px; margin: 0 1px; border:1px solid transparent; background:#5b8b3f; color: #fff;}
+.pagination-info{font-size:12px; padding: 6px 0 0 0;}
